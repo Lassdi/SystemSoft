@@ -26,7 +26,7 @@ int main() {
     printf("The sum of numbers 1-1000 is: %d \n", sum);
     printf("The sum of even numbers is: %d \n", sumOfEven);
     
-    
+    /*
     srand(time(0));
     int round = 0;
     int lower = 2, upper = 20;
@@ -41,13 +41,12 @@ int main() {
             break;
         }
     }
-    
-/*
+    */
     srand(time(0));
     int lower = 0, upper = 100;
     int random = (rand()%(upper-lower +1))+lower;
     int count = 0;
-
+    /*
     printf("Your random number is: %d \n", random);
 
     while(random != 1){
